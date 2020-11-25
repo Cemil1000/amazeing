@@ -1,0 +1,35 @@
+.tile{
+    display: flex;
+    width: calc(13*42px);
+    flex-wrap: wrap;
+}
+.mur{
+    background-color: black;
+    width: 42px;
+    height: 42px;
+    font-size: 50px;
+}
+.route{
+    background-color: gray;
+    width: 42px;
+    height: 42px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+.start{
+    background-color: green;
+    width: 42px;
+    height: 42px;
+}
+.finish{
+    background-color: green;
+    width: 42px;
+    height: 42px;
+}
+.player{
+    background-color: purple;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
